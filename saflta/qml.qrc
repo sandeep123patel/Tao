@@ -4,5 +4,18 @@
         <file>Page1.qml</file>
         <file>Page1Form.ui.qml</file>
         <file>qtquickcontrols2.conf</file>
+        <file>pen.png</file>
+        <file>gra.png</file>
+        <file>SelfDestroyingRect.qml</file>
+        <file>SelfDestroyingRectForm.ui.qml</file>
+        <file>componentCreation.js</file>
+        <file>Sprite.qml</file>
+        <file>SpriteForm.ui.qml</file>
+        <file>Show_result.qml</file>
+        <file>Show_resultForm.ui.qml</file>
+        <file>frim2.qml</file>
+        <file>Frm.qml</file>
+        <file>FrmForm.ui.qml</file>
     </qresource>
+    <qresource prefix="/image"/>
 </RCC>

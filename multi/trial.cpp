@@ -6,6 +6,8 @@ trial::trial(QWidget *parent) :
     ui(new Ui::trial)
 {
     ui->setupUi(this);
+    this->setStyleSheet("background-color: white");
+
 }
 
 trial::~trial()

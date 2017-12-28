@@ -12,3 +12,8 @@ Instruction::~Instruction()
 {
     delete ui;
 }
+
+void Instruction::on_pushButton_clicked()
+{
+    this->close();
+}

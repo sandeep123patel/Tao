@@ -15,6 +15,9 @@ public:
     explicit Resultmain(QWidget *parent = 0);
     ~Resultmain();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::Resultmain *ui;
 };

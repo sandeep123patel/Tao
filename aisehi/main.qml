@@ -8,18 +8,46 @@ ApplicationWindow {
     height: 480
     title: qsTr("Hello World")
 
+
+
     SwipeView {
         id: swipeView
         anchors.fill: parent
         currentIndex: tabBar.currentIndex
 
         Page1 {
+
         }
 
         Page {
+            Connections{
+                target: messageClass
+                onMessageChange: textId.text = value
+            }
+            Connections{
+                target:  messageClass
+                onAoptChange: textId1.text = value1
+            }
+
             Label {
-                text: qsTr("Second page")
+                id: textId
+                text: qsTr("sandeep")
                 anchors.centerIn: parent
+            }
+
+            Label {
+                id: textId1
+                x: 309
+                y: 342
+
+                text: "patel"
+
+            }
+
+
+            Button {
+                text: "change test";
+                onClicked: messageClass.doMessageChange()
             }
         }
     }

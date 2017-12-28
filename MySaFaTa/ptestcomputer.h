@@ -15,6 +15,9 @@ public:
     explicit ptestcomputer(QWidget *parent = 0);
     ~ptestcomputer();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::ptestcomputer *ui;
 };

@@ -1,1 +1,11 @@
-<RCC/>
+<RCC>
+    <qresource prefix="/Image">
+        <file>GK.png</file>
+        <file>Hindi.png</file>
+        <file>test.png</file>
+        <file>Reasoning.png</file>
+        <file>icons8-ok.png</file>
+        <file>icons8-ok (1).png</file>
+    </qresource>
+    <qresource prefix="/"/>
+</RCC>

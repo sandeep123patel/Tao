@@ -1,6 +1,6 @@
 #include "pinstructionmath.h"
 #include "ui_pinstructionmath.h"
-
+#include "ptestmath.h"
 PinstructionMath::PinstructionMath(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::PinstructionMath)
@@ -11,4 +11,13 @@ PinstructionMath::PinstructionMath(QWidget *parent) :
 PinstructionMath::~PinstructionMath()
 {
     delete ui;
+}
+
+void PinstructionMath::on_pushButton_clicked()
+{
+    PtestMath *pmth = new PtestMath();
+    pmth->setVisible(true);
+    pmth->activateWindow();
+    pmth->showFullScreen();
+    this->close();
 }

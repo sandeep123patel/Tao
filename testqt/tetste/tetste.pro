@@ -25,10 +25,16 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp
+        mainwindow.cpp \
+    secondwindow.cpp \
+    mywidets.cpp
 
 HEADERS += \
-        mainwindow.h
+        mainwindow.h \
+    secondwindow.h \
+    mywidets.h
 
 FORMS += \
-        mainwindow.ui
+        mainwindow.ui \
+    secondwindow.ui \
+    mywidets.ui

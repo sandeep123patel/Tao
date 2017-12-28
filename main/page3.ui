@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
  <class>page3</class>
  <widget class="QDialog" name="page3">
@@ -12,6 +13,19 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>150</y>
+     <width>89</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PushButton3</string>
+   </property>
+  </widget>
  </widget>
  <resources/>
  <connections/>

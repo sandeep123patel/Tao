@@ -15,6 +15,9 @@ public:
     explicit InstructionComputer(QWidget *parent = 0);
     ~InstructionComputer();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::InstructionComputer *ui;
 };

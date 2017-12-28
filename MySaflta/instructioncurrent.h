@@ -15,6 +15,9 @@ public:
     explicit InstructionCurrent(QWidget *parent = 0);
     ~InstructionCurrent();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::InstructionCurrent *ui;
 };

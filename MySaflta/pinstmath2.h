@@ -15,6 +15,9 @@ public:
     explicit PinstMath2(QWidget *parent = 0);
     ~PinstMath2();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::PinstMath2 *ui;
 };

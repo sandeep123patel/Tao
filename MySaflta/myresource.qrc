@@ -1,1 +1,14 @@
-<RCC/>
+<RCC>
+    <qresource prefix="/Image">
+        <file>icons8-ok (1).png</file>
+        <file>Maths.png</file>
+        <file>Reasoning.png</file>
+        <file>Hindi.png</file>
+        <file>English.png</file>
+        <file>GK.png</file>
+        <file>test.png</file>
+        <file>study-lamp.svg</file>
+        <file>lock-button.png</file>
+        <file>giftbox.png</file>
+    </qresource>
+</RCC>

@@ -15,6 +15,9 @@ public:
     explicit ptestgk(QWidget *parent = 0);
     ~ptestgk();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::ptestgk *ui;
 };

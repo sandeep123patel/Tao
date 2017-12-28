@@ -1,24 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <author/>
- <comment/>
- <exportmacro/>
  <class>PinstructionHindi</class>
- <widget name="PinstructionHindi" class="QMainWindow">
+ <widget class="QMainWindow" name="PinstructionHindi">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>526</width>
+    <height>632</height>
    </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
-  <widget name="menubar" class="QMenuBar"/>
-  <widget name="centralwidget" class="QWidget"/>
-  <widget name="statusbar" class="QStatusBar"/>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QScrollArea" name="scrollArea">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="scrollAreaWidgetContents">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>506</width>
+         <height>612</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="1" column="0">
+         <widget class="QPushButton" name="pushButton">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>75</height>
+           </size>
+          </property>
+          <property name="sizeIncrement">
+           <size>
+            <width>0</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>18</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(13, 76, 13);
+color: rgb(255, 255, 255);</string>
+          </property>
+          <property name="text">
+           <string>Start Test - टेस्ट आरम्भ करें </string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QTextBrowser" name="textBrowser">
+          <property name="html">
+           <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;docs-internal-guid-789e8309-9ad9-4b27-65f0-885ce89f31ac&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'Arial'; font-size:18pt; color:#000000; background-color:transparent;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot; font-family:'Arial'; font-size:18pt; color:#000000; background-color:transparent;&quot;&gt;. इस प्रखंड में कुल 100 प्रश्न हैं.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Arial'; font-size:18pt; color:#000000; background-color:transparent;&quot;&gt;2. &lt;/span&gt;&lt;a name=&quot;docs-internal-guid-789e8309-9ad9-932f-774b-968d4688be6a&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'Arial'; font-size:18pt; color:#000000; background-color:transparent;&quot;&gt;स&lt;/span&gt;&lt;span style=&quot; font-family:'Arial'; font-size:18pt; color:#000000; background-color:transparent;&quot;&gt;भी प्रश्नों का केवल एक ही सही उत्तर है.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Arial'; font-size:18pt; color:#000000; background-color:transparent;&quot;&gt;3. &lt;/span&gt;&lt;a name=&quot;docs-internal-guid-789e8309-9ad9-dee0-d1fe-829f54179881&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'Arial'; font-size:18pt; color:#000000; background-color:transparent;&quot;&gt;ए&lt;/span&gt;&lt;span style=&quot; font-family:'Arial'; font-size:18pt; color:#000000; background-color:transparent;&quot;&gt;क बार प्रश्न का उत्तर देने के उपरांत वापस पिछले प्रश्न पर नहीं जाया जा सकता. एप्प का उद्देश्य परीक्षा की तैय्यारी करवाना है एवं वापस जाने का विकल्प बंद कर हम ये सुनिश्चित करना चाहते हैं की आप उत्तर देते समय अपना सर्वश्रेष्ठ प्रयास करें जिससे वास्तविक परीक्षा में आपका आत्म विश्वास बढ़ा हुआ रहे. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Arial'; font-size:18pt; color:#000000; background-color:transparent;&quot;&gt;4. &lt;/span&gt;&lt;a name=&quot;docs-internal-guid-789e8309-9ada-29f1-d311-bb0b132e1ae7&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'Arial'; font-size:18pt; color:#000000; background-color:transparent;&quot;&gt;प&lt;/span&gt;&lt;span style=&quot; font-family:'Arial'; font-size:18pt; color:#000000; background-color:transparent;&quot;&gt;्रखंड की समाप्ति पर आपको अपने द्वारा किये गए सही और गलत उत्तरों का संक्षिप्त ब्यौरा दिया जाएगा.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Arial'; font-size:18pt; color:#000000; background-color:transparent;&quot;&gt;5. &lt;/span&gt;&lt;a name=&quot;docs-internal-guid-789e8309-9ada-6573-a5ca-fdfd0dd8bd39&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'Arial'; font-size:18pt; color:#000000; background-color:transparent;&quot;&gt;प&lt;/span&gt;&lt;span style=&quot; font-family:'Arial'; font-size:18pt; color:#000000; background-color:transparent;&quot;&gt;्रत्येक प्रश्न को हल करने के उपरांत उस प्रश्न का सही विवरण देखने को मिलेगा&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Arial'; font-size:18pt; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Mangal'; font-size:18pt; font-weight:600;&quot;&gt;नोट &lt;/span&gt;&lt;span style=&quot; font-size:18pt;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot; font-family:'Mangal'; font-size:18pt; font-weight:600;&quot;&gt;समय समय पर प्रश्न उत्तर को अपडेट&lt;/span&gt;&lt;span style=&quot; font-size:18pt;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot; font-family:'Mangal'; font-size:18pt; font-weight:600;&quot;&gt;एवं बढाया भी जावेगा&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
  </widget>
- <pixmapfunction/>
+ <resources/>
  <connections/>
 </ui>

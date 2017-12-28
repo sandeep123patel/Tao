@@ -4,5 +4,23 @@
         <file>Page1.qml</file>
         <file>Page1Form.ui.qml</file>
         <file>qtquickcontrols2.conf</file>
+        <file>Reasoning.png</file>
+        <file>Hindi.png</file>
+        <file>English.png</file>
+        <file>GK.png</file>
+        <file>test.png</file>
+        <file>Maths.png</file>
+        <file>Instruction.qml</file>
+        <file>InstructionForm.ui.qml</file>
+        <file>Gk.qml</file>
+        <file>GkForm.ui.qml</file>
+        <file>Math.qml</file>
+        <file>MathForm.ui.qml</file>
+        <file>Hindi.qml</file>
+        <file>HindiForm.ui.qml</file>
+        <file>Computer.qml</file>
+        <file>ComputerForm.ui.qml</file>
+        <file>Reasoning.qml</file>
+        <file>ReasoningForm.ui.qml</file>
     </qresource>
 </RCC>

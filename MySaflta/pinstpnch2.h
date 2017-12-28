@@ -15,6 +15,9 @@ public:
     explicit PinstPnch2(QWidget *parent = 0);
     ~PinstPnch2();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::PinstPnch2 *ui;
 };

@@ -15,6 +15,9 @@ public:
     explicit PinteructionComputer(QWidget *parent = 0);
     ~PinteructionComputer();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::PinteructionComputer *ui;
 };

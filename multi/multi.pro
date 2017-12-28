@@ -4,11 +4,12 @@
 #
 #-------------------------------------------------
 
-QT       += core gui
+QT       += core gui 
+QT       += sql
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = multi
+TARGET = Saflata
 TEMPLATE = app
 
 # The following define makes your compiler emit warnings if you use
@@ -25,10 +26,42 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp
+        mainwindow.cpp \
+    text.cpp \
+    page.cpp \
+    trial.cpp
 
 HEADERS += \
-        mainwindow.h
+        mainwindow.h \
+    text.h \
+    page.h \
+    trial.h
 
 FORMS += \
-        mainwindow.ui
+        mainwindow.ui \
+    text.ui \
+    page.ui \
+    trial.ui
+
+DISTFILES += \
+    android/AndroidManifest.xml \
+    android/gradle/wrapper/gradle-wrapper.jar \
+    android/gradlew \
+    android/res/values/libs.xml \
+    android/build.gradle \
+    android/gradle/wrapper/gradle-wrapper.properties \
+    android/gradlew.bat \
+    android/AndroidManifest.xml \
+    android/gradle/wrapper/gradle-wrapper.jar \
+    android/gradlew \
+    android/res/values/libs.xml \
+    android/build.gradle \
+    android/gradle/wrapper/gradle-wrapper.properties \
+    android/gradlew.bat
+
+ANDROID_PACKAGE_SOURCE_DIR = $$PWD/android
+contains(ANDROID_TARGET_ARCH,armeabi-v7a) {
+    ANDROID_EXTRA_LIBS = \
+        # modify the path
+        $$PWD/../../../home/sandeep/Android/Qt/NDK/platforms/android-19/arch-arm/usr/lib/mariadb/libmariadb.so
+}

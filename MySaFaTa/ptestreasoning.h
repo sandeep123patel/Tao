@@ -15,6 +15,9 @@ public:
     explicit ptestreasoning(QWidget *parent = 0);
     ~ptestreasoning();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::ptestreasoning *ui;
 };

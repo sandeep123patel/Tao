@@ -15,6 +15,9 @@ public:
     explicit Tankyoumath(QWidget *parent = 0);
     ~Tankyoumath();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::Tankyoumath *ui;
 };

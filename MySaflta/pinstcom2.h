@@ -15,6 +15,9 @@ public:
     explicit Pinstcom2(QWidget *parent = 0);
     ~Pinstcom2();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::Pinstcom2 *ui;
 };

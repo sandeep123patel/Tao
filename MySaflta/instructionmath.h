@@ -15,6 +15,9 @@ public:
     explicit InstructionMath(QWidget *parent = 0);
     ~InstructionMath();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::InstructionMath *ui;
 };

@@ -15,6 +15,9 @@ public:
     explicit page4(QWidget *parent = 0);
     ~page4();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::page4 *ui;
 };

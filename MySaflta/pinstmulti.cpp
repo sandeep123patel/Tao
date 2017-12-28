@@ -12,3 +12,8 @@ PinstMulti::~PinstMulti()
 {
     delete ui;
 }
+
+void PinstMulti::on_pushButton_clicked()
+{
+    this->close();
+}

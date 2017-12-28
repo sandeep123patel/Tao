@@ -1,24 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <author/>
- <comment/>
- <exportmacro/>
  <class>SainWindow</class>
- <widget name="SainWindow" class="QMainWindow">
+ <widget class="QMainWindow" name="SainWindow">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>587</width>
+    <height>532</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
-  <widget name="menubar" class="QMenuBar"/>
-  <widget name="centralwidget" class="QWidget"/>
-  <widget name="statusbar" class="QStatusBar"/>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QScrollArea" name="scrollArea">
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="scrollAreaWidgetContents">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>567</width>
+         <height>468</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="1" column="0">
+         <widget class="QPushButton" name="pushButton_2">
+          <property name="text">
+           <string>PushButton</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <widget class="QPushButton" name="pushButton">
+          <property name="text">
+           <string>PushButton</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QTextBrowser" name="textBrowser"/>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>587</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
  </widget>
- <pixmapfunction/>
+ <resources/>
  <connections/>
 </ui>

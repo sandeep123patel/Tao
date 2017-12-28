@@ -14,6 +14,7 @@ ApplicationWindow {
         currentIndex: tabBar.currentIndex
 
         Page1 {
+
         }
 
         Page {
@@ -21,6 +22,41 @@ ApplicationWindow {
                 text: qsTr("Second page")
                 anchors.centerIn: parent
             }
+
+            Rectangle{
+                id:san
+                anchors.topMargin: 50
+                width: 50
+                height: 50
+                color: "#5151d3"
+                border.color: "black"
+                gradient: Gradient {
+                    GradientStop {
+                        position: 0.44;
+                        color: "#5151d3";
+                    }
+                    GradientStop {
+                        position: 0.87;
+                        color: "#ffffff";
+                    }
+                }
+
+                opacity: 1
+
+
+
+            }
+
+            Rectangle{
+                anchors.right: san.right
+                x:200
+                y:200
+                width: 50
+                height: 50
+                color: "#9e3939"
+            }
+
+
         }
     }
 

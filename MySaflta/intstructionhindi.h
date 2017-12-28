@@ -15,6 +15,9 @@ public:
     explicit IntstructionHindi(QWidget *parent = 0);
     ~IntstructionHindi();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::IntstructionHindi *ui;
 };

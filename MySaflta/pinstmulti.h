@@ -15,6 +15,9 @@ public:
     explicit PinstMulti(QWidget *parent = 0);
     ~PinstMulti();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::PinstMulti *ui;
 };

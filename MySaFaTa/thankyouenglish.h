@@ -15,6 +15,9 @@ public:
     explicit thankyouenglish(QWidget *parent = 0);
     ~thankyouenglish();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::thankyouenglish *ui;
 };

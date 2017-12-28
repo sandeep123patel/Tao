@@ -1,10 +1,7 @@
-<?xml version='1.0'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <author/>
- <comment/>
- <exportmacro/>
  <class>mywidets</class>
- <widget name="mywidets" class="QWidget">
+ <widget class="QWidget" name="mywidets">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -16,7 +13,20 @@
   <property name="windowTitle">
    <string>Form</string>
   </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>160</y>
+     <width>89</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PushButton</string>
+   </property>
+  </widget>
  </widget>
- <pixmapfunction/>
+ <resources/>
  <connections/>
 </ui>

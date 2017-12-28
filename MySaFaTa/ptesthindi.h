@@ -15,6 +15,9 @@ public:
     explicit ptesthindi(QWidget *parent = 0);
     ~ptesthindi();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::ptesthindi *ui;
 };

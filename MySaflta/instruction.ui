@@ -1,9 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <author/>
- <comment/>
- <exportmacro/>
  <class>Instruction</class>
- <widget name="Instruction" class="QMainWindow">
+ <widget class="QMainWindow" name="Instruction">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -15,10 +13,55 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
-  <widget name="menubar" class="QMenuBar"/>
-  <widget name="centralwidget" class="QWidget"/>
-  <widget name="statusbar" class="QStatusBar"/>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QTextBrowser" name="textBrowser">
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;docs-internal-guid-789e8309-9af7-a0db-e026-ac3b466521b8&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'Arial'; font-size:24pt; color:#000000; background-color:transparent;&quot;&gt;आ&lt;/span&gt;&lt;span style=&quot; font-family:'Arial'; font-size:24pt; color:#000000; background-color:transparent;&quot;&gt;पका टेस्ट समाप्त हुआ. माय सफलता एप्प का उपयोग करने के लिए बहुत बहुत धन्यवाद्. कृपया अभ्यास जारी रखने के लिए पेड वर्जन पर जाएँ. मात्र १०० रूपये में ५००० प्रश्नों के संग्रह पर अभ्यास करें. &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Arial'; font-size:24pt; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;docs-internal-guid-789e8309-9af9-0bd0-fd05-a83f695e30b1&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'Mangal'; font-size:24pt; font-weight:696; color:#000000; background-color:transparent;&quot;&gt;उ&lt;/span&gt;&lt;span style=&quot; font-family:'Mangal'; font-size:24pt; font-weight:696; color:#000000; background-color:transparent;&quot;&gt;ठो&lt;/span&gt;&lt;span style=&quot; font-family:'Arial'; font-size:24pt; color:#000000; background-color:transparent;&quot;&gt;,&lt;/span&gt;&lt;span style=&quot; font-family:'Mangal'; font-size:24pt; font-weight:696; color:#000000; background-color:transparent;&quot;&gt;जागो&lt;/span&gt;&lt;span style=&quot; font-family:'Arial'; font-size:24pt; color:#000000; background-color:transparent;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot; font-family:'Mangal'; font-size:24pt; font-weight:696; color:#000000; background-color:transparent;&quot;&gt;बढ़ो।&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;docs-internal-guid-789e8309-9af9-301e-60c8-9b7990f6a6ad&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'Mangal'; font-size:24pt; font-weight:696; color:#000000; background-color:transparent;&quot;&gt;औ&lt;/span&gt;&lt;span style=&quot; font-family:'Mangal'; font-size:24pt; font-weight:696; color:#000000; background-color:transparent;&quot;&gt;र तब तक मत रुको&lt;/span&gt;&lt;span style=&quot; font-family:'Arial'; font-size:24pt; color:#000000; background-color:transparent;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot; font-family:'Mangal'; font-size:24pt; font-weight:696; color:#000000; background-color:transparent;&quot;&gt;जब तक की लक्ष्य&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;docs-internal-guid-789e8309-9af9-5c7b-9904-f750ac1611bc&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'Mangal'; font-size:24pt; font-weight:696; color:#000000; background-color:transparent;&quot;&gt;न&lt;/span&gt;&lt;span style=&quot; font-family:'Mangal'; font-size:24pt; font-weight:696; color:#000000; background-color:transparent;&quot;&gt; प्राप्त हो जाये।&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;docs-internal-guid-789e8309-9af9-a05e-749e-c374e773c514&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'Arial'; font-size:24pt; color:#000000; background-color:transparent;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot; font-family:'Mangal'; font-size:24pt; font-weight:696; color:#000000; background-color:transparent;&quot;&gt;स्वामी विवेकानंद&lt;/span&gt;&lt;span style=&quot; font-family:'Arial'; font-size:24pt; color:#000000; background-color:transparent;&quot;&gt;)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QPushButton" name="pushButton">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>75</height>
+       </size>
+      </property>
+      <property name="baseSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(204, 0, 0);
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>Finish - समाप्त</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
  </widget>
- <pixmapfunction/>
+ <resources/>
  <connections/>
 </ui>

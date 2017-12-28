@@ -1,8 +1,11 @@
 QT += qml quick
+QT += sql
+QMAKE_CXXFLAGS += -std=c++11
 
 CONFIG += c++11
 
-SOURCES += main.cpp
+SOURCES += main.cpp \
+    message.cpp
 
 RESOURCES += qml.qrc
 
@@ -27,3 +30,6 @@ DEFINES += QT_DEPRECATED_WARNINGS
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+HEADERS += \
+    message.h

@@ -15,6 +15,9 @@ public:
     explicit InstructionpagePanch(QWidget *parent = 0);
     ~InstructionpagePanch();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::InstructionpagePanch *ui;
 };

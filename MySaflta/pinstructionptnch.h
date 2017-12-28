@@ -15,6 +15,9 @@ public:
     explicit PinstructionPtnch(QWidget *parent = 0);
     ~PinstructionPtnch();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::PinstructionPtnch *ui;
 };

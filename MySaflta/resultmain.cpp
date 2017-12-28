@@ -12,3 +12,8 @@ Resultmain::~Resultmain()
 {
     delete ui;
 }
+
+void Resultmain::on_pushButton_clicked()
+{
+    this->close();
+}

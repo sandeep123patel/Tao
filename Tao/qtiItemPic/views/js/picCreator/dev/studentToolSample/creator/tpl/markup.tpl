@@ -1,1 +1,0 @@
-<span class="sts-button" data-typeIdentifier="{{typeIdentifier}}" title="{{title}}"><img src="{{icon}}" alt="{{alt}}" /></span>

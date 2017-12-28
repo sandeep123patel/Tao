@@ -5,6 +5,7 @@ import QtQuick.Layouts 1.3
 Item {
     property alias textField1: textField1
     property alias button1: button1
+    property alias textArea: textArea
 
     RowLayout {
         anchors.horizontalCenter: parent.horizontalCenter
@@ -20,5 +21,18 @@ Item {
             id: button1
             text: qsTr("Press Me")
         }
+    }
+
+    TextArea {
+        id: textArea
+        x: 129
+        y: 195
+        width: 315
+        height: 157
+        text: qsTr("Text Arearthhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh")
+        wrapMode: Text.WrapAtWordBoundaryOrAnywhere
+        horizontalAlignment: Text.AlignHCenter
+        readOnly: true
+
     }
 }

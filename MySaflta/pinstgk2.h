@@ -15,6 +15,9 @@ public:
     explicit PinstGk2(QWidget *parent = 0);
     ~PinstGk2();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::PinstGk2 *ui;
 };

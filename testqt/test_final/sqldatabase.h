@@ -1,12 +1,21 @@
-#ifndef SQLDATABASE_H
 #define SQLDATABASE_H
-
 #include <QObject>
+#include<QString>
+class SqlDatabase : public QObject {
+    Q_OBJECT
 
-class SqlDatabase
-{
+    Q_PROPERTY ( bool connected READ connected NOTIFY connectedChanged )
+
 public:
-    SqlDatabase();
-};
+     explicit SqlDatabase ( QObject * parent = 0 );
 
-#endif // SQLDATABASE_H
+     bool connected() ;
+     void connectToDatabase(QString &host, QString &database, QString &username, QString &password);
+
+private:
+    bool b_connected;
+
+signals:
+    void connectedChanged ();
+
+};

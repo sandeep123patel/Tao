@@ -1,5 +1,6 @@
 import QtQuick 2.7
 import QtQuick.Window 2.2
+import QtQuick.Controls 2.0
 
 Window {
     visible: true
@@ -7,10 +8,19 @@ Window {
     height: 480
     title: qsTr("Hello World")
 
-    MainForm {
+    Item {
+        id: fist
         anchors.fill: parent
-        mouseArea.onClicked: {
-            console.log(qsTr('Clicked on background. Text: "' + textEdit.text + '"'))
+
+        Rectangle {
+            x:100
+            y : 100
+            width: 100
+            height: 100
+            color: blue
+            border.color: "#00c83b3b"
         }
     }
+
+
 }
