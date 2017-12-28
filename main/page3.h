@@ -1,0 +1,22 @@
+#ifndef PAGE3_H
+#define PAGE3_H
+
+#include <QDialog>
+
+namespace Ui {
+class page3;
+}
+
+class page3 : public QDialog
+{
+    Q_OBJECT
+
+public:
+    explicit page3(QWidget *parent = 0);
+    ~page3();
+
+private:
+    Ui::page3 *ui;
+};
+
+#endif // PAGE3_H
